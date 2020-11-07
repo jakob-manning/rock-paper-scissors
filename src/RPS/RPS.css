@@ -1,0 +1,133 @@
+h2 {
+    color: white;
+    background-color: palevioletred;
+    margin-top: 0;
+}
+
+.choiceImage {
+    object-fit: contain;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 5px 1px lightgray;
+}
+
+.choiceImageButton:active {
+    transform: translateY(4px);
+    color: lightgray;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px 1px dimgray;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.lessPadding {
+    padding-bottom: 10px;
+}
+
+.choiceDiv {
+    height: 25vw;
+    width: 25vw;
+    margin:auto;
+    font-size: 0px;
+}
+
+.choiceDiv:hover {
+    cursor: pointer;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.faceOff{
+    height: 25vw;
+    width: 25vw;
+    margin:auto;
+    font-size: 20px;
+    color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetButton {
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: palevioletred;
+    box-shadow: 0px 2px 5px 1px lightgray;
+    border-radius: 20px;
+}
+
+.resetButton:hover {
+    cursor: pointer;
+}
+
+.resetButton:active {
+    transform: translateY(4px);
+}
+
+@media only screen and (min-width: 800px) {
+    /* For desktop: */
+    .rpsWrapper {
+        width: 50%;
+        margin: auto;
+    }
+    .choiceDiv {
+        border: 1px solid blue;
+        height: 15vw;
+        width: 15vw;
+        margin:auto;
+        font-size: 0px;
+    }
+
+    .choiceImage {
+        object-fit: contain;
+        border-radius: 20px;
+        width: 100%;
+        box-shadow: 0px 2px 5px 1px lightgray;
+    }
+
+    .faceOff{
+        height: 15vw;
+        width: 15vw;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    /* For desktop: */
+    .rpsWrapper {
+        width: 50%;
+        margin: auto;
+    }
+    .choiceDiv {
+        border: none;
+        height: 200px;
+        width: 200px;
+        margin:auto;
+        font-size: 0px;
+    }
+
+    .choiceImage {
+        object-fit: contain;
+        border-radius: 20px;
+        width: 100%;
+        box-shadow: 0px 2px 5px 1px lightgray;
+    }
+
+    .faceOff{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.easterEgg {
+    font-size: 0px;
+}

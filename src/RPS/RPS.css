@@ -81,6 +81,7 @@ h2 {
         margin: auto;
     }
     .choiceDiv {
+        border: 1px solid blue;
         height: 15vw;
         width: 15vw;
         margin:auto;
